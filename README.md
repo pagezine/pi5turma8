@@ -2,7 +2,8 @@
 
 Projeto Integrador em Computação Tema: Montagem e Programação de uma miniestação meterológica v.2.0 com base na internet das coisas.(IoT)
 
-Introdução
+**Introdução**
+
 Em um mundo cada vez mais urbanizado, as cidades enfrentam desafios constantes relacionados ao clima, e um dos problemas mais comuns e prejudiciais é o alagamento causado por fortes chuvas. 
 
 Os impactos dos alagamentos incluem danos materiais, riscos à segurança pública e prejuízos econômicos significativos. No entanto, a tecnologia moderna oferece oportunidades para mitigar esses problemas, e é nesse contexto que surge o projeto de alerta de precipitação.
