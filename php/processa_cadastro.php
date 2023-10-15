@@ -1,16 +1,17 @@
 <?php
+include 'config.php';
 // Conectar ao banco de dados (substitua as informações de conexão conforme necessário)
-$host = 'localhost';
-$usuario = 'seu_usuario';
-$senha = 'sua_senha';
-$banco = 'seu_banco';
+//$host = 'localhost';
+//$usuario = 'seu_usuario';
+//$senha = 'sua_senha';
+//$banco = 'seu_banco';
 
-$conexao = new mysqli($host, $usuario, $senha, $banco);
+//$conexao = new mysqli($host, $usuario, $senha, $banco);
 
 // Verificar a conexão
-if ($conexao->connect_error) {
-    die("Erro de conexão: " . $conexao->connect_error);
-}
+//if ($conexao->connect_error) {
+//    die("Erro de conexão: " . $conexao->connect_error);
+//}
 
 // Coletar os dados do formulário
 $id_estacao = $_POST['id_estacao'];
