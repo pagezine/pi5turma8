@@ -14,7 +14,7 @@ CREATE TABLE leituras_clima (
     hora TIME,
     temperatura DECIMAL(5, 2),
     umidade DECIMAL(5, 2),
-    dir_vento VARCHAR(255),
-    vel_vento DECIMAL(5, 2),
+    vento_dir VARCHAR(255),
+    vento_vel DECIMAL(5, 2),
     solar_uv DECIMAL(5, 2)
 );
