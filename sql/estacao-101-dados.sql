@@ -1,4 +1,4 @@
--- Inserção de 40 registros adicionais com valores específicos
+-- InserÃ§Ã£o de 40 registros adicionais com valores especÃ­ficos
 INSERT INTO leituras_clima (id, id_usuario, id_estacao, estacao_lat, estacao_lon, gps_lat, gps_lon, data, hora, temperatura, umidade, dir_vento, vel_vento, solar_uv)
 VALUES
 (1, 1010, 101, -23.541, -46.3106, -23.541, -46.3106, '2023-10-16', '08:30:00', 26.5, 59.8, 'NE', 6.1, 8.2),
@@ -48,4 +48,3 @@ VALUES
 (45, 1010, 101, -23.541, -46.3106, -23.541, -46.3106, '2023-10-30', '10:00:00', 25.8, 59.3, 'SW', 6.0, 8.5),
 (46, 1010, 101, -23.541, -46.3106, -23.541, -46.3106, '2023-10-31', '08:30:00', 27.3, 57.4, 'NE', 4.7, 9.0),
 (47, 1010, 101, -23.541, -46.3106, -23.541, -46.3106, '2023-10-31', '09:15:00', 28.4, 56.8, 'SE', 5.3, 7.7);
-
