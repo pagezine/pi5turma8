@@ -1,0 +1,5 @@
+CREATE TABLE tokens (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    token VARCHAR(255) NOT NULL,
+    status TINYINT(1) DEFAULT 1
+);
