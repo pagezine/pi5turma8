@@ -3,7 +3,7 @@
  include 'config.php';
 
 // Estabelecer a conexão
-$conn = new mysqli($servername, $username, $password, $database);
+$conn = new mysqli($hostname, $username, $password, $database);
 
 // Verificar a conexão
 if ($conn->connect_error) {
