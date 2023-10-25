@@ -13,7 +13,6 @@ if ($conn->connect_error) {
 // Defina o cabeçalho para permitir solicitações de qualquer origem (CORS)
 header("Access-Control-Allow-Origin: *");
 
-
 // Verifique o token na solicitação
 $token = isset($_GET['token']) ? $_GET['token'] : '';
 
@@ -29,6 +28,7 @@ if ($result->num_rows === 0) {
 
 // Verifique o método da solicitação HTTP
 if ($_SERVER["REQUEST_METHOD"] === "GET") {
+ 
 // Endpoint para buscar todos os registros
     if (isset($_GET['action']) && $_GET['action'] === 'get_all') {
         $sql = "SELECT * FROM leituras_clima";
